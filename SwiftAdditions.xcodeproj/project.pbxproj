@@ -7,23 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1E88AD3122135BBA008EC4C9 /* Dictionary+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88AD0C22135BB8008EC4C9 /* Dictionary+Extension.swift */; };
-		1E88AD3722135BBA008EC4C9 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88AD1222135BB8008EC4C9 /* String+Extension.swift */; };
-		1E88AD3922135BBA008EC4C9 /* NSAttributedString+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88AD1422135BB8008EC4C9 /* NSAttributedString+Extension.swift */; };
-		1E88AD3D22135BBA008EC4C9 /* String+Cases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88AD1822135BB8008EC4C9 /* String+Cases.swift */; };
-		1E88AD4222135BBA008EC4C9 /* NotificationCenter+Extension .swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88AD1D22135BB9008EC4C9 /* NotificationCenter+Extension .swift */; };
-		1E88AD4322135BBA008EC4C9 /* FileManager+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88AD1E22135BB9008EC4C9 /* FileManager+Extension.swift */; };
-		1E88AD4522135BBA008EC4C9 /* IndexPath+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88AD2022135BB9008EC4C9 /* IndexPath+Extension.swift */; };
-		1E88AD4822135BBA008EC4C9 /* String+Formatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88AD2322135BB9008EC4C9 /* String+Formatting.swift */; };
-		1E88AD4922135BBA008EC4C9 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88AD2422135BB9008EC4C9 /* Array+Extension.swift */; };
-		1E88AD4E22135BBA008EC4C9 /* CGRect+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88AD2922135BB9008EC4C9 /* CGRect+Extension.swift */; };
-		1E88AD4F22135BBA008EC4C9 /* URL+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88AD2A22135BBA008EC4C9 /* URL+Extension.swift */; };
-		1E88AD7B221361D1008EC4C9 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88AD55221361D0008EC4C9 /* Currency.swift */; };
-		1E88AD8B221361D1008EC4C9 /* Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88AD65221361D0008EC4C9 /* Debug.swift */; };
-		1E88AD8E221361D1008EC4C9 /* Disk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88AD68221361D0008EC4C9 /* Disk.swift */; };
-		1E88AD8F221361D1008EC4C9 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88AD69221361D0008EC4C9 /* Keychain.swift */; };
-		1E88AD97221361D1008EC4C9 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88AD71221361D1008EC4C9 /* Validator.swift */; };
-		1E88AD9F221361D1008EC4C9 /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88AD79221361D1008EC4C9 /* Delay.swift */; };
+		1E88AD3122135BBA008EC4C9 /* Dictionary+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88AD0C22135BB8008EC4C9 /* Dictionary+Extension.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E88AD3722135BBA008EC4C9 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88AD1222135BB8008EC4C9 /* String+Extension.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E88AD3922135BBA008EC4C9 /* NSAttributedString+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88AD1422135BB8008EC4C9 /* NSAttributedString+Extension.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E88AD3D22135BBA008EC4C9 /* String+Cases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88AD1822135BB8008EC4C9 /* String+Cases.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E88AD4222135BBA008EC4C9 /* NotificationCenter+Extension .swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88AD1D22135BB9008EC4C9 /* NotificationCenter+Extension .swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E88AD4322135BBA008EC4C9 /* FileManager+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88AD1E22135BB9008EC4C9 /* FileManager+Extension.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E88AD4522135BBA008EC4C9 /* IndexPath+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88AD2022135BB9008EC4C9 /* IndexPath+Extension.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E88AD4822135BBA008EC4C9 /* String+Formatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88AD2322135BB9008EC4C9 /* String+Formatting.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E88AD4922135BBA008EC4C9 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88AD2422135BB9008EC4C9 /* Array+Extension.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E88AD4E22135BBA008EC4C9 /* CGRect+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88AD2922135BB9008EC4C9 /* CGRect+Extension.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E88AD4F22135BBA008EC4C9 /* URL+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88AD2A22135BBA008EC4C9 /* URL+Extension.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E88AD7B221361D1008EC4C9 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88AD55221361D0008EC4C9 /* Currency.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E88AD8B221361D1008EC4C9 /* Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88AD65221361D0008EC4C9 /* Debug.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E88AD8E221361D1008EC4C9 /* Disk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88AD68221361D0008EC4C9 /* Disk.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E88AD8F221361D1008EC4C9 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88AD69221361D0008EC4C9 /* Keychain.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E88AD97221361D1008EC4C9 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88AD71221361D1008EC4C9 /* Validator.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E88AD9F221361D1008EC4C9 /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88AD79221361D1008EC4C9 /* Delay.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EA40CD4221B0EC600550914 /* Debug.swift in Headers */ = {isa = PBXBuildFile; fileRef = 1E88AD65221361D0008EC4C9 /* Debug.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EA40CD5221B0EC600550914 /* Delay.swift in Headers */ = {isa = PBXBuildFile; fileRef = 1E88AD79221361D1008EC4C9 /* Delay.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EA40CD9221B0EC600550914 /* Array+Extension.swift in Headers */ = {isa = PBXBuildFile; fileRef = 1E88AD2422135BB9008EC4C9 /* Array+Extension.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EA40CDA221B0EC600550914 /* CGRect+Extension.swift in Headers */ = {isa = PBXBuildFile; fileRef = 1E88AD2922135BB9008EC4C9 /* CGRect+Extension.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EA40CDB221B0EC600550914 /* Dictionary+Extension.swift in Headers */ = {isa = PBXBuildFile; fileRef = 1E88AD0C22135BB8008EC4C9 /* Dictionary+Extension.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EA40CDC221B0EC600550914 /* FileManager+Extension.swift in Headers */ = {isa = PBXBuildFile; fileRef = 1E88AD1E22135BB9008EC4C9 /* FileManager+Extension.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EA40CDD221B0EC600550914 /* IndexPath+Extension.swift in Headers */ = {isa = PBXBuildFile; fileRef = 1E88AD2022135BB9008EC4C9 /* IndexPath+Extension.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EA40CDE221B0EC600550914 /* NotificationCenter+Extension .swift in Headers */ = {isa = PBXBuildFile; fileRef = 1E88AD1D22135BB9008EC4C9 /* NotificationCenter+Extension .swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EA40CDF221B0EC600550914 /* NSAttributedString+Extension.swift in Headers */ = {isa = PBXBuildFile; fileRef = 1E88AD1422135BB8008EC4C9 /* NSAttributedString+Extension.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EA40CE0221B0EC600550914 /* String+Cases.swift in Headers */ = {isa = PBXBuildFile; fileRef = 1E88AD1822135BB8008EC4C9 /* String+Cases.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EA40CE1221B0EC600550914 /* String+Extension.swift in Headers */ = {isa = PBXBuildFile; fileRef = 1E88AD1222135BB8008EC4C9 /* String+Extension.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EA40CE2221B0EC600550914 /* String+Formatting.swift in Headers */ = {isa = PBXBuildFile; fileRef = 1E88AD2322135BB9008EC4C9 /* String+Formatting.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EA40CE3221B0EC600550914 /* URL+Extension.swift in Headers */ = {isa = PBXBuildFile; fileRef = 1E88AD2A22135BBA008EC4C9 /* URL+Extension.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		1EE639ED220D005D00E93E88 /* SwiftAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EE639DF220D005D00E93E88 /* SwiftAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -135,6 +148,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EE639ED220D005D00E93E88 /* SwiftAdditions.h in Headers */,
+				1EA40CD4221B0EC600550914 /* Debug.swift in Headers */,
+				1EA40CD5221B0EC600550914 /* Delay.swift in Headers */,
+				1EA40CD9221B0EC600550914 /* Array+Extension.swift in Headers */,
+				1EA40CDA221B0EC600550914 /* CGRect+Extension.swift in Headers */,
+				1EA40CDB221B0EC600550914 /* Dictionary+Extension.swift in Headers */,
+				1EA40CDC221B0EC600550914 /* FileManager+Extension.swift in Headers */,
+				1EA40CDD221B0EC600550914 /* IndexPath+Extension.swift in Headers */,
+				1EA40CDE221B0EC600550914 /* NotificationCenter+Extension .swift in Headers */,
+				1EA40CDF221B0EC600550914 /* NSAttributedString+Extension.swift in Headers */,
+				1EA40CE0221B0EC600550914 /* String+Cases.swift in Headers */,
+				1EA40CE1221B0EC600550914 /* String+Extension.swift in Headers */,
+				1EA40CE2221B0EC600550914 /* String+Formatting.swift in Headers */,
+				1EA40CE3221B0EC600550914 /* URL+Extension.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
