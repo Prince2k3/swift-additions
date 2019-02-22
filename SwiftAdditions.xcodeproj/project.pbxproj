@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-<<<<<<< Updated upstream
 		1E88AD3122135BBA008EC4C9 /* Dictionary+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88AD0C22135BB8008EC4C9 /* Dictionary+Extension.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		1E88AD3722135BBA008EC4C9 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88AD1222135BB8008EC4C9 /* String+Extension.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		1E88AD3922135BBA008EC4C9 /* NSAttributedString+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88AD1422135BB8008EC4C9 /* NSAttributedString+Extension.swift */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -25,31 +24,10 @@
 		1E88AD8F221361D1008EC4C9 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88AD69221361D0008EC4C9 /* Keychain.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		1E88AD97221361D1008EC4C9 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88AD71221361D1008EC4C9 /* Validator.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		1E88AD9F221361D1008EC4C9 /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88AD79221361D1008EC4C9 /* Delay.swift */; settings = {ATTRIBUTES = (Public, ); }; };
-=======
-		1E0236AD222070AB0060983A /* Paged.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0236AC222070AB0060983A /* Paged.swift */; };
-		1E88AD3122135BBA008EC4C9 /* Dictionary+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88AD0C22135BB8008EC4C9 /* Dictionary+Extension.swift */; };
-		1E88AD3722135BBA008EC4C9 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88AD1222135BB8008EC4C9 /* String+Extension.swift */; };
-		1E88AD3922135BBA008EC4C9 /* NSAttributedString+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88AD1422135BB8008EC4C9 /* NSAttributedString+Extension.swift */; };
-		1E88AD3D22135BBA008EC4C9 /* String+Cases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88AD1822135BB8008EC4C9 /* String+Cases.swift */; };
-		1E88AD4222135BBA008EC4C9 /* NotificationCenter+Extension .swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88AD1D22135BB9008EC4C9 /* NotificationCenter+Extension .swift */; };
-		1E88AD4322135BBA008EC4C9 /* FileManager+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88AD1E22135BB9008EC4C9 /* FileManager+Extension.swift */; };
-		1E88AD4522135BBA008EC4C9 /* IndexPath+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88AD2022135BB9008EC4C9 /* IndexPath+Extension.swift */; };
-		1E88AD4822135BBA008EC4C9 /* String+Formatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88AD2322135BB9008EC4C9 /* String+Formatting.swift */; };
-		1E88AD4922135BBA008EC4C9 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88AD2422135BB9008EC4C9 /* Array+Extension.swift */; };
-		1E88AD4E22135BBA008EC4C9 /* CGRect+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88AD2922135BB9008EC4C9 /* CGRect+Extension.swift */; };
-		1E88AD4F22135BBA008EC4C9 /* URL+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88AD2A22135BBA008EC4C9 /* URL+Extension.swift */; };
-		1E88AD7B221361D1008EC4C9 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88AD55221361D0008EC4C9 /* Currency.swift */; };
-		1E88AD8B221361D1008EC4C9 /* Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88AD65221361D0008EC4C9 /* Debug.swift */; };
-		1E88AD8E221361D1008EC4C9 /* Disk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88AD68221361D0008EC4C9 /* Disk.swift */; };
-		1E88AD8F221361D1008EC4C9 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88AD69221361D0008EC4C9 /* Keychain.swift */; };
-		1E88AD97221361D1008EC4C9 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88AD71221361D1008EC4C9 /* Validator.swift */; };
-		1E88AD9F221361D1008EC4C9 /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88AD79221361D1008EC4C9 /* Delay.swift */; };
->>>>>>> Stashed changes
 		1EE639ED220D005D00E93E88 /* SwiftAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EE639DF220D005D00E93E88 /* SwiftAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1E0236AC222070AB0060983A /* Paged.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paged.swift; sourceTree = "<group>"; };
 		1E88AD0C22135BB8008EC4C9 /* Dictionary+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+Extension.swift"; sourceTree = "<group>"; };
 		1E88AD1222135BB8008EC4C9 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		1E88AD1422135BB8008EC4C9 /* NSAttributedString+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+Extension.swift"; sourceTree = "<group>"; };
@@ -86,7 +64,7 @@
 		1E88AD0722135B58008EC4C9 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				1E88AD5322136148008EC4C9 /* Utils */,
+				1E88AD5322136148008EC4C9 /* Common */,
 				1E88AD5222136138008EC4C9 /* Extensions */,
 			);
 			path = Sources;
@@ -110,10 +88,9 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		1E88AD5322136148008EC4C9 /* Utils */ = {
+		1E88AD5322136148008EC4C9 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				1E0236AC222070AB0060983A /* Paged.swift */,
 				1E88AD55221361D0008EC4C9 /* Currency.swift */,
 				1E88AD65221361D0008EC4C9 /* Debug.swift */,
 				1E88AD79221361D1008EC4C9 /* Delay.swift */,
@@ -121,7 +98,7 @@
 				1E88AD69221361D0008EC4C9 /* Keychain.swift */,
 				1E88AD71221361D1008EC4C9 /* Validator.swift */,
 			);
-			path = Utils;
+			path = Common;
 			sourceTree = "<group>";
 		};
 		1EE639D2220D005D00E93E88 = {
@@ -244,7 +221,6 @@
 				1E88AD4222135BBA008EC4C9 /* NotificationCenter+Extension .swift in Sources */,
 				1E88AD4322135BBA008EC4C9 /* FileManager+Extension.swift in Sources */,
 				1E88AD3D22135BBA008EC4C9 /* String+Cases.swift in Sources */,
-				1E0236AD222070AB0060983A /* Paged.swift in Sources */,
 				1E88AD4F22135BBA008EC4C9 /* URL+Extension.swift in Sources */,
 				1E88AD3122135BBA008EC4C9 /* Dictionary+Extension.swift in Sources */,
 			);
