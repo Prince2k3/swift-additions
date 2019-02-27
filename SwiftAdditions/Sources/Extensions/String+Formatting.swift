@@ -33,24 +33,3 @@ extension String {
         return string
     }
 }
-
-extension String {
-    public var formattedPhoneNumber: String {
-        var phoneNumberformat = "(XXX) XXX-XXXX"
-        let cleared = clearFormat(phoneNumberformat)
-        if cleared.count > 10 {
-            phoneNumberformat = "X (XXX) XXX-XXXX"
-        }
-
-        return format(phoneNumberformat)
-    }
-
-    public var clearPhoneNumberFormat: String {
-        return self.replace(" ", with: "")
-        .replace("(", with: "")
-        .replace(")", with: "")
-        .replace("-", with: "")
-        .replace("+", with: "")
-        .replace("*", with: "")
-    }
-}
