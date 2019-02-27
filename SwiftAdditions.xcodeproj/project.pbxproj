@@ -25,6 +25,8 @@
 		1E88AD8F221361D1008EC4C9 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88AD69221361D0008EC4C9 /* Keychain.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		1E88AD97221361D1008EC4C9 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88AD71221361D1008EC4C9 /* Validator.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		1E88AD9F221361D1008EC4C9 /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88AD79221361D1008EC4C9 /* Delay.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EE1E042222718BF003F8AB9 /* URLRequest+Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE1E041222718BF003F8AB9 /* URLRequest+Test.swift */; };
+		1EE1E044222718CE003F8AB9 /* Data+Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE1E043222718CE003F8AB9 /* Data+Test.swift */; };
 		1EE639ED220D005D00E93E88 /* SwiftAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EE639DF220D005D00E93E88 /* SwiftAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -47,6 +49,8 @@
 		1E88AD69221361D0008EC4C9 /* Keychain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
 		1E88AD71221361D1008EC4C9 /* Validator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
 		1E88AD79221361D1008EC4C9 /* Delay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Delay.swift; sourceTree = "<group>"; };
+		1EE1E041222718BF003F8AB9 /* URLRequest+Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+Test.swift"; sourceTree = "<group>"; };
+		1EE1E043222718CE003F8AB9 /* Data+Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Test.swift"; sourceTree = "<group>"; };
 		1EE639DC220D005D00E93E88 /* SwiftAdditions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftAdditions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EE639DF220D005D00E93E88 /* SwiftAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftAdditions.h; sourceTree = "<group>"; };
 		1EE639E0220D005D00E93E88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -86,6 +90,8 @@
 				1E88AD1222135BB8008EC4C9 /* String+Extension.swift */,
 				1E88AD2322135BB9008EC4C9 /* String+Formatting.swift */,
 				1E88AD2A22135BBA008EC4C9 /* URL+Extension.swift */,
+				1EE1E041222718BF003F8AB9 /* URLRequest+Test.swift */,
+				1EE1E043222718CE003F8AB9 /* Data+Test.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -216,6 +222,7 @@
 				1E88AD4822135BBA008EC4C9 /* String+Formatting.swift in Sources */,
 				1E88AD4E22135BBA008EC4C9 /* CGRect+Extension.swift in Sources */,
 				1E88AD4522135BBA008EC4C9 /* IndexPath+Extension.swift in Sources */,
+				1EE1E044222718CE003F8AB9 /* Data+Test.swift in Sources */,
 				1E88AD97221361D1008EC4C9 /* Validator.swift in Sources */,
 				1E88AD8F221361D1008EC4C9 /* Keychain.swift in Sources */,
 				1E88AD3922135BBA008EC4C9 /* NSAttributedString+Extension.swift in Sources */,
@@ -223,6 +230,7 @@
 				1E88AD8B221361D1008EC4C9 /* Debug.swift in Sources */,
 				1E88AD4222135BBA008EC4C9 /* NotificationCenter+Extension .swift in Sources */,
 				1E88AD4322135BBA008EC4C9 /* FileManager+Extension.swift in Sources */,
+				1EE1E042222718BF003F8AB9 /* URLRequest+Test.swift in Sources */,
 				1E88AD3D22135BBA008EC4C9 /* String+Cases.swift in Sources */,
 				1E0236AF2220C4B60060983A /* Paged.swift in Sources */,
 				1E88AD4F22135BBA008EC4C9 /* URL+Extension.swift in Sources */,
