@@ -74,3 +74,6 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+/SwiftAdditions/Sources/.DS_Store
+/SwiftAdditions/Sources/Extensions/.DS_Store
+/SwiftAdditions.xcodeproj/project.xcworkspace/xcuserdata/princeugwuh.xcuserdatad/UserInterfaceState.xcuserstate

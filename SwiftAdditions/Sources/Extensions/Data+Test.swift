@@ -8,7 +8,7 @@
 import Foundation
 
 extension Data {
-    init(reading input: InputStream) {
+    public init(reading input: InputStream) {
         self.init()
         input.open()
         

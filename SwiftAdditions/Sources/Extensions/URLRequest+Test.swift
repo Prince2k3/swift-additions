@@ -8,13 +8,13 @@
 import Foundation
 
 extension URLRequest {
-    var jsonBody: [String: Any] {
+    public var jsonBody: [String: Any] {
         guard let httpBodyStream = self.httpBodyStream else { return [:] }
         do { return try JSONSerialization.jsonObject(with: Data(reading: httpBodyStream), options: []) as? [String: Any] ?? [:] }
         catch { return [:] }
     }
     
-    var urlComponents: URLComponents? {
+    public var urlComponents: URLComponents? {
         guard let url = self.url else { return nil }
         return URLComponents(url: url, resolvingAgainstBaseURL: false)
     }
