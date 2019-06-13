@@ -1,6 +1,6 @@
 import Foundation
 
-public extension FileManager {
+extension FileManager {
     public static func fileExists(_ path: String) -> Bool {
         return FileManager.default.fileExists(atPath: path)
     }
