@@ -1,4 +1,4 @@
-import Foundation
+import UIKit
 
 extension NSMutableAttributedString {
     public func setBaseFont(baseFont: UIFont = .systemFont(ofSize: 15), preserveFontSizes: Bool = false) {
