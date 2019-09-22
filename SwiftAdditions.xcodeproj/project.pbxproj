@@ -6,20 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		"SwiftAdditions::SwiftAdditionsPackageTests::ProductTarget" /* SwiftAdditionsPackageTests */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = OBJ_68 /* Build configuration list for PBXAggregateTarget "SwiftAdditionsPackageTests" */;
-			buildPhases = (
-			);
-			dependencies = (
-				OBJ_71 /* PBXTargetDependency */,
-			);
-			name = SwiftAdditionsPackageTests;
-			productName = SwiftAdditionsPackageTests;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
 		OBJ_42 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* Array+Extension.swift */; };
 		OBJ_43 /* CGRect+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* CGRect+Extension.swift */; };
@@ -39,7 +25,6 @@
 		OBJ_57 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* Keychain.swift */; };
 		OBJ_58 /* Paged.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* Paged.swift */; };
 		OBJ_59 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* Validator.swift */; };
-		OBJ_66 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_77 /* SwiftAdditionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* SwiftAdditionsTests.swift */; };
 		OBJ_78 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* XCTestManifests.swift */; };
 		OBJ_80 /* SwiftAdditions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SwiftAdditions::SwiftAdditions::Product" /* SwiftAdditions.framework */; };
@@ -52,13 +37,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = "SwiftAdditions::SwiftAdditions";
 			remoteInfo = SwiftAdditions;
-		};
-		1EF1BA0B2337275800417D87 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "SwiftAdditions::SwiftAdditionsTests";
-			remoteInfo = SwiftAdditionsTests;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -84,7 +62,6 @@
 		OBJ_31 /* SwiftAdditionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAdditionsTests.swift; sourceTree = "<group>"; };
 		OBJ_32 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
 		OBJ_36 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		"SwiftAdditions::SwiftAdditions::Product" /* SwiftAdditions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftAdditions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"SwiftAdditions::SwiftAdditionsTests::Product" /* SwiftAdditionsTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = SwiftAdditionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -149,16 +126,14 @@
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
-				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
 				OBJ_29 /* Tests */,
 				OBJ_33 /* Products */,
 				OBJ_36 /* README.md */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_7 /* Sources */ = {
@@ -233,20 +208,6 @@
 			productReference = "SwiftAdditions::SwiftAdditionsTests::Product" /* SwiftAdditionsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		"SwiftAdditions::SwiftPMPackageDescription" /* SwiftAdditionsPackageDescription */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_62 /* Build configuration list for PBXNativeTarget "SwiftAdditionsPackageDescription" */;
-			buildPhases = (
-				OBJ_65 /* Sources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SwiftAdditionsPackageDescription;
-			productName = SwiftAdditionsPackageDescription;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -263,14 +224,12 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_33 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				"SwiftAdditions::SwiftAdditions" /* SwiftAdditions */,
-				"SwiftAdditions::SwiftPMPackageDescription" /* SwiftAdditionsPackageDescription */,
-				"SwiftAdditions::SwiftAdditionsPackageTests::ProductTarget" /* SwiftAdditionsPackageTests */,
 				"SwiftAdditions::SwiftAdditionsTests" /* SwiftAdditionsTests */,
 			);
 		};
@@ -302,14 +261,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_65 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 0;
-			files = (
-				OBJ_66 /* Package.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		OBJ_76 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
@@ -322,11 +273,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		OBJ_71 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "SwiftAdditions::SwiftAdditionsTests" /* SwiftAdditionsTests */;
-			targetProxy = 1EF1BA0B2337275800417D87 /* PBXContainerItemProxy */;
-		};
 		OBJ_81 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "SwiftAdditions::SwiftAdditions" /* SwiftAdditions */;
@@ -446,36 +392,6 @@
 			};
 			name = Release;
 		};
-		OBJ_63 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.1";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		OBJ_64 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.1";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		OBJ_69 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-			};
-			name = Debug;
-		};
-		OBJ_70 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-			};
-			name = Release;
-		};
 		OBJ_74 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -543,24 +459,6 @@
 			buildConfigurations = (
 				OBJ_39 /* Debug */,
 				OBJ_40 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		OBJ_62 /* Build configuration list for PBXNativeTarget "SwiftAdditionsPackageDescription" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_63 /* Debug */,
-				OBJ_64 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		OBJ_68 /* Build configuration list for PBXAggregateTarget "SwiftAdditionsPackageTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_69 /* Debug */,
-				OBJ_70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
